@@ -7,7 +7,7 @@ public class MyBeanImpl {
 	private String b = "gdsa";
 	
 	public String a() {
-		return "이재용";
+		return "이dsadsadsa재용";
 	}
 	
 	public String getB() {

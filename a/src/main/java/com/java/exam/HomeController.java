@@ -18,10 +18,15 @@ public class HomeController {
 	@Autowired
 	main a;
 	
+	@Autowired
+	AppConfig app;
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home() {
 		
 		String b = sd.getB();
+		
+		System.out.println(app.bean.a());
 		
 		System.out.println(b);
 		
