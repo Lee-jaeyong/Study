@@ -10,6 +10,7 @@ public class main {
 	MyBeanImpl my;
 
 	public String s() {
+		System.out.println("fdsfds");
 		return my.a();
 	}
 }
